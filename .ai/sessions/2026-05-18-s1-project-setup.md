@@ -4,6 +4,7 @@
 - Updated: 2026-05-18
 - Status: in_progress
 - User: sidarhalman
+- Agent: Claude Code
 - Summary: Set up the token-efficient LLM workspace structure for this base template project.
 
 ## Goal

@@ -21,6 +21,7 @@ Every time you start a new work session, read in this order:
 - Move `done` sessions to `_archived/` when they are no longer needed for active work, and update the tracker status to `archived`.
 - Important decisions must be written into the session file, not only kept in chat memory.
 - When a session file gets too long: summarize it, mark it `done`, archive it, and start a new session.
+- Every session file must include the `Agent` field. The agent creating or primarily updating the session writes its own name there. If multiple agents contribute, list them comma-separated or note the handoff in Decisions.
 
 ## What Belongs Here
 
@@ -62,6 +63,7 @@ Copy this when starting a new session:
 - Updated: YYYY-MM-DD
 - Status: in_progress
 - User: <name or unknown>
+- Agent: <Claude Code | Codex | Cursor | ChatGPT | other/unknown>
 - Summary: One short sentence describing this session.
 
 ## Goal
