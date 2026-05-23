@@ -16,7 +16,7 @@ CLAUDE.md           — this file, Claude's entry point
   sessions/
     _tracker.md     — lightweight session index (read this first)
     _archived/      — completed sessions (skip unless needed)
-    YYYY-MM-DD-*.md — active session files
+    YYYY-MM-DD-sN-*.md — active session files
 ```
 
 ## Boot Sequence

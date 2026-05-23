@@ -36,6 +36,21 @@ Every time you start a new work session, read in this order:
 - Temporary notes with no lasting value
 - Full chat transcripts
 
+## Session File Naming
+
+Format: `YYYY-MM-DD-sN-slug.md`
+
+- `N` = sequence number for that day, starting at 1
+- Use `s1` even when there is only one session that day (consistency)
+- `slug` = short, hyphen-separated description of the topic
+
+Examples:
+```
+2026-05-25-s1-new-feature.md
+2026-05-25-s2-bug-fix.md
+2026-05-25-s3-api-refactor.md
+```
+
 ## Session File Template
 
 Copy this when starting a new session:
